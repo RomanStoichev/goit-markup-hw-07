@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="portfolio-body">
     <!-- Навигация-->
@@ -28,12 +28,12 @@
             >
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="./index.html" class="nav__link">Студия</a>
+                <a href="./index.html" class="nav__link nav__link--current"
+                  >Студия</a
+                >
               </li>
               <li class="nav__item">
-                <a href="./portfolio.html" class="nav__link nav__link--current"
-                  >Портфолио</a
-                >
+                <a href="./portfolio.html" class="nav__link">Портфолио</a>
               </li>
               <li class="nav__item">
                 <a href="" class="nav__link"> Контакты</a>
@@ -318,9 +318,9 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-inner">
+        <div class="footer__inner">
           <div class="footer-nav">
-            <a href="./index.html" class="site-logo">
+            <a href="./index.html" class="site-logo footer-nav__site-logo">
               <span class="logo">Web</span>Studio
             </a>
             <address class="adress">
@@ -385,7 +385,7 @@
                 >Подпишитесь на рассылку</label
               >
               <input
-                class="ooter-input__mail"
+                class="footer-input__mail"
                 type="mail"
                 name="mail"
                 id="mail"
